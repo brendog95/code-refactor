@@ -1,0 +1,162 @@
+/*overall sizing for the entire webpage*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*background color for the body of the webpage*/
+body {
+    background-color: #d9dcd6;
+}
+
+/*for the Horiseon header*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/*sets the color for "seo" in Horiseon*/
+.seo {
+    color: #d9dcd6;
+}
+
+/*set placement and color for the nav bar options*/
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*creates the positioning of the nav elements in relation to one another*/
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*sets color for nav elements*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*font size for the paragraph elements*/
+p {
+    font-size: 16px;
+}
+
+/*sets size and style for the main image below the Header*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("assets/images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*placement for the search engine optimization and Social media marketing image*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*placement for the Online reputation Image*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*creates the box in which the seo, online reputation management and social media marketing sections sit in*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*creates boxes and defines size, color and background color for search engine optimization, online reputation management and social media marketing*/
+.search-engine-optimization, 
+.online-reputation-management, 
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+   
+}
+
+/*sets the size for the images in the content box*/
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/*sets margin and font size for the headings associated with each image*/
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*creates the box size and loaction for the aside element*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*sets the color and positioning opf each section element inside of the aside element*/
+.benefit-lead,
+.benefit-brand,
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*aligns the headers in the aside element to the center and sets margins for spacing*/
+.benefit-lead h3,
+.benefit-cost h3,
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*creates a max size for each image in the aside element and adds margins*/
+.benefit-lead img,
+.benefit-brand img,
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*sets font, alignment and padding for the footer of the webpage*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/*sets font size for the heading to the footer*/
+.footer h2 {
+    font-size: 20px;
+}
